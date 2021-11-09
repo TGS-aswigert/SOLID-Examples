@@ -5,6 +5,12 @@ public class User {
     public String email;
     public boolean isValid;
 
+    public User(String name, String email) {
+        this.name = name;
+        this.email = email;
+        this.isValid = true;
+    }
+
     public String getName() {
         return name;
     }
