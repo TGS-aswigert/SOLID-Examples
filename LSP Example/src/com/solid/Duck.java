@@ -1,4 +1,4 @@
-package com.solid.finished;
+package com.solid;
 
 public class Duck implements Bird {
 

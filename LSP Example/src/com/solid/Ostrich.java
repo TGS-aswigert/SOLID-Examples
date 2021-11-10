@@ -1,6 +1,6 @@
-package com.solid.finished;
+package com.solid;
 
-public class Ostrich implements FlightlessBird {
+public class Ostrich implements Bird{
 
     @Override
     public void walk() {
