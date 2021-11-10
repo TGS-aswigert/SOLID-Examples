@@ -6,10 +6,4 @@ public class UserSettingService {
             user.setEmail(newEmail);
         }
     }
-
-    public void changeName(User user, String newName) {
-        if(SecurityService.checkAccess(user)) {
-            user.setName(newName);
-        }
-    }
 }
