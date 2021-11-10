@@ -1,6 +1,6 @@
 package com.solid.finished;
 
-public class HPPrinterAndScanner implements Print,Scan {
+public class HPPrinterAndScanner implements Printer, Scanner {
 
     @Override
     public void print() {

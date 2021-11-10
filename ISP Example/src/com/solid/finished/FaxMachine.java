@@ -1,5 +1,5 @@
 package com.solid.finished;
 
-public interface Fax {
+public interface FaxMachine {
     public void fax();
 }

@@ -1,6 +1,6 @@
 package com.solid.finished;
 
-public interface Scan {
+public interface Scanner {
     public void scan();
     public void scanPhoto();
 }
