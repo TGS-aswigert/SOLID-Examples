@@ -3,6 +3,9 @@ package com.solid;
 public class Ostrich implements Bird{
 
     @Override
+    public void fly() {};
+
+    @Override
     public void walk() {
         System.out.println("com.solid.Ostrich is walking");
     }
